@@ -1,0 +1,9 @@
+pCandy = 100
+pCookie = 120
+pApple = 50
+
+x = int(input())
+y = int(input())
+z = int(input())
+
+print(pCandy * x + pCookie * y + pApple * z)
