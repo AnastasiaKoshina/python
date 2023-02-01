@@ -1,0 +1,4 @@
+R = int(input())
+r = int(input())
+S = (R*R - r*r)
+print(S)
