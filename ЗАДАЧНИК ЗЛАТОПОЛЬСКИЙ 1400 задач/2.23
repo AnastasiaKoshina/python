@@ -1,0 +1,13 @@
+# входные данные
+a = float(input("Enter the length of the first side: "))
+b = float(input("Enter the length of the second side: "))
+
+# вычисление периметра
+perimeter = 2 * (a + b)
+
+# вычисление длины диагонали
+diagonal = (a**2 + b**2)**(1/2)
+
+# вывод результатов
+print("Perimeter: ", perimeter)
+print("Diagonal length: ", diagonal)

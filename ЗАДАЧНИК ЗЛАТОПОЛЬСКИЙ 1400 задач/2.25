@@ -1,0 +1,10 @@
+a = float(input("Enter length of first side: "))
+b = float(input("Enter length of second side: "))
+c = float(input("Enter length of third side: "))
+
+volume = a * b * c
+
+area = 2 * (a * b + b * c + a * c)
+
+print("Volume of rectangular parallelepiped:", volume)
+print("Area of lateral surface of rectangular parallelepiped:", area)

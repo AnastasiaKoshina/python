@@ -1,0 +1,21 @@
+# входные данные
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+
+# вычисление суммы
+sum = a + b
+
+# вычисление разности
+difference = a - b
+
+# вычисление произведения
+product = a * b
+
+# вычисление частного
+quotient = a / b
+
+# вывод результатов
+print("Sum: ", sum)
+print("Difference: ", difference)
+print("Product: ", product)
+print("Quotient: ", quotient)
