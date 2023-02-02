@@ -1,0 +1,11 @@
+
+import math
+ square_s = int(input('Sкв = '))
+circle_s = int(input('Sкр = '))
+ 
+square_a = math.sqrt(square_s)
+circle_r = math.sqrt(circle_s / math.pi)
+circle_d = 2 * circle_r
+print(square_a > circle_d)
+
+ 

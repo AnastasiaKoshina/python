@@ -1,0 +1,6 @@
+import math
+a = float(input())
+b = float(input())
+c = float(input()) 
+di = b**2 - 4 * a * c;
+ 
